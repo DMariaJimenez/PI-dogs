@@ -1,0 +1,32 @@
+@keyframes fade-in {
+  100% { opacity: 1; }
+  0% { opacity: 0; }
+}
+
+.title {
+  font-family: rowdies;
+  font-size: 36px;
+  padding: 10px 20px;
+  background-color: rgb(5, 94, 104);
+  color: rgb(185, 210, 210);
+  border-radius: 4px;
+  animation: fade-in 1.6s ease-in-out infinite alternate;
+}
+
+.button {
+    background-color: rgb(5, 94, 104);
+    color: rgb(185, 210, 210);
+    padding: .3em;
+    font-family: rowdies;
+    font-size: 4rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    transition:  0.3s ease;
+  }
+  .button:hover {
+    background-color: rgb(52, 52, 52);
+    color: white;
+    transform: scale(1.05);
+  }
